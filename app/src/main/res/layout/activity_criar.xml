@@ -48,7 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Cpf"
-            android:inputType="text" />
+            android:inputType="number" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -62,7 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Telefone"
-            android:inputType="text" />
+            android:inputType="phone" />
 
         <Button
             android:id="@+id/btnSalvar"

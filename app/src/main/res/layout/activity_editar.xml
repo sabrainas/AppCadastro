@@ -28,11 +28,14 @@
             android:text="ID:"
             android:textStyle="bold"
             android:textSize="20sp"/>
+
         <EditText
             android:id="@+id/edtId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="false"
             android:hint="Id"
+            android:enabled="false"
             android:inputType="text"
             />
 
@@ -63,7 +66,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Cpf"
-            android:inputType="text"
+            android:inputType="number"
             />
 
         <TextView
@@ -78,7 +81,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Telefone"
-            android:inputType="text"
+            android:inputType="phone"
             />
 
         <Button
@@ -103,17 +106,17 @@
             android:elevation="6dp"
             android:layout_marginTop="10dp"
             />
+
         <Button
             android:id="@+id/btnVoltar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_style"
+            android:elevation="6dp"
             android:onClick="voltar"
             android:text="Voltar"
-            android:background="@drawable/button_style"
-            android:textColor="#FFFFFF"
-            android:elevation="6dp"
-            android:layout_marginTop="10dp"
-            />
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

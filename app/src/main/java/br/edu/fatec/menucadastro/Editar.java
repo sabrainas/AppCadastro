@@ -92,4 +92,9 @@ public class Editar extends AppCompatActivity {
         dao.delete(a);
         Toast.makeText(getApplicationContext(), "Aluno Excluido com sucesso! ", Toast.LENGTH_LONG).show();
     }
+
+    public void voltar(View view){
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(intent);
+    }
 }
