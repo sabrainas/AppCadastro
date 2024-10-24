@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MenuCadastro" parent="Theme.Material3.Light">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#2b6782</item>
+        <item name="colorPrimaryDark">#327fa1</item>
+        <item name="colorAccent">#2b6782</item>
+    </style>
+
+    <style name="Theme.MenuCadastro" parent="Base.Theme.MenuCadastro" />
+</resources>
